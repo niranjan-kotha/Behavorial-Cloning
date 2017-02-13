@@ -42,7 +42,7 @@ My project includes the following files:
 * [model.py](./model.py) containing the script to create and train the model
 * [drive.py](./drive.py) for driving the car in autonomous mode
 * [model.h5](./model.h5) containing a trained convolution neural network 
-* [model.json](./model.h5) json file to run  
+* [model.json](./model.h5) json file to run model.h5 
 * [README.md](./README.md) summarizing the results
 
 #### 2 . Submssion includes functional code
