@@ -91,8 +91,8 @@ I have initially used data augmentation techniques(like varying brightness of im
 
 ```
 steering=0 implies driving straight
-steering>0 implies driving straight (with a maximum value of 1)
-steering<0 implies driving straight (with a maximum value of 1 in other direction)
+steering>0 implies driving right (with a maximum value of 1)
+steering<0 implies driving left (with a maximum value of 1 in other direction)
 ```
 The thresholds I used to split the steering angles were:
 ```
