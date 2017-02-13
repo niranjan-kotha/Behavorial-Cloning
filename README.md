@@ -1,4 +1,5 @@
 
+
 # **Behavioral Cloning** 
 
 
@@ -89,8 +90,8 @@ I have initially used data augmentation techniques(like varying brightness of im
 
 ```
 steering=0 implies driving straight
-steering>0 implies driving straight
-steering<0 implies driving straight
+steering>0 implies driving straight (with a maximum value of 1)
+steering<0 implies driving straight (with a maximum value of 1 in other direction)
 ```
 The thresholds I used to split the steering angles were:
 ```
@@ -176,5 +177,15 @@ Steering Range  | sampling ratio of images
   -0.1 to 0.1  | 0.6
    0.1 to 0.45  | 0.16
   0.45 to 1  | 0.04
-
   
+I have even flipped images for which the steering values are greater than 0.45 and less than -0.45 which are the thresholds for for hrad left and hard right steering. This ensured that there are more number of steep turns and are equal in both right and left directions. The following is histogram analysis of number of images images/steering values with a particular steering value
+```
+558  values between max_left and hard_left    [-1 -0.45) 
+1026 values between hard_left and soft_left   [-0.45 -0.1)
+1714 values between soft_left and straight    [-0.1 0)
+2018 values between straight  and soft_right  [0 0.1)
+1714 values between soft_right and hard_right [0.1 0.45) 
+558  values between hard_right and max_right  [0.45 0.1) 
+```
+  
+
