@@ -166,7 +166,7 @@ Here are the examples of some images used in the training data that were split b
 ###### Hard right to max right image (steering = 0.6)
 ![alt text][hmr]
 
-The ratio of images split based on steering in the data set is choosen as follows
+The ratio of images split based on steering in the data set is chosen as follows
 
 Steering Range  | sampling ratio of images
   :-------------: | :-------------:
