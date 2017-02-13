@@ -3,6 +3,7 @@
 # **Behavioral Cloning** 
 
 
+Project video here: https://youtu.be/fs4tZfJ9vH0
 
 **Behavrioal Cloning Project**
 
@@ -188,6 +189,10 @@ I have even flipped images for which the steering values are greater than 0.45 a
 558  values between hard_right and max_right  [0.45 0.1) 
 ```
 This implied I have trained the model by just using 6500 images.
+
+### Result
+Project video here: https://youtu.be/fs4tZfJ9vH0
+
 
 ### Reflection
 This is one weird Regression project I have done using Convolutional neural networks where the model is considered fail if it goes off by a little and I have successfully trained the network by using 6500 images which is twice lower in number of images compared to my peers. The main take away from the project is  data balancing  which was very crucial in avoiding bias towards particular steering.
