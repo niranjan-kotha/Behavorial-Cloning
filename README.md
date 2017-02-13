@@ -40,10 +40,11 @@ My project includes the following files:
 * [model.py](./model.py) containing the script to create and train the model
 * [drive.py](./drive.py) for driving the car in autonomous mode
 * [model.h5](./model.h5) containing a trained convolution neural network 
-* [README.md](./Readme.md) summarizing the results
+* [model.json](./model.h5) json file to run  
+* [README.md](./README.md) summarizing the results
 
 #### 2 . Submssion includes functional code
-Using the Udacity provided [simulator](https://d17h27t6h515a5.cloudfront.net/topher/2017/February/58983558_beta-simulator-linux/beta-simulator-linux.zip) and my drive.py file, the car can be driven autonomously around the track by executing 
+Using the Udacity provided [simulator](https://d17h27t6h515a5.cloudfront.net/topher/2017/February/58983558_beta-simulator-linux/beta-simulator-linux.zip) and my [drive.py](./drive.py) file, [model.json](./model.h5) and [model.h5](./model.h5) file the car can be driven autonomously around the track by executing 
 ```sh 
  python drive.py model.json
 ```
